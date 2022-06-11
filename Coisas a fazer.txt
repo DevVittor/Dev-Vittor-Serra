@@ -1,0 +1,6 @@
+1-Colocar um sistema de entrega de multiplos currículos de uma vez pagando apenas R$ 9,90 por mês
+o sistema vai enviar todos os currículos por e-mail que foi cadastrado. 
+
+2-Sistema de avaliação para novos usuários começa com 0 estrelas e vai até 5 estrelas*/
+
+3-Dados cadastrais: Nome completo,

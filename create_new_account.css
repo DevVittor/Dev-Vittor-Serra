@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+    background: url(pexels-ryan-millier-3229622.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.l1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 20vw;
+    background: #fff;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.l2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 50vw;
+    background: red;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.l2 h2 {
+    position: relative;
+    top: -120px;
+    font-size: 34px;
+}
+
+.l2 input {
+    height: 35px;
+    width: 15vw;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.l2 button {
+    height: 40px;
+    width: 7vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

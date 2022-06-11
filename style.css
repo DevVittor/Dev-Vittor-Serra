@@ -1,0 +1,254 @@
+/*Icons Bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+/*Font Roboto*/
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Font Abril Fatface*/
+/*font-family: 'Abril Fatface', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*Font Kameron*/
+/*font-family: 'Kameron', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+/*Color Red Vintage*/
+/*color: #E40017;*/
+/*Color Red Vintage*/
+/*color: #161616;*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.social{
+  position: fixed;
+  top: 50%;
+  right: 50px;
+}
+.social li{
+  padding-top: 10px;
+  transition: all  .3s ease-out;
+}
+.social li:hover{
+  transition: all  .3s ease-in;
+  transform: scale(1.5);
+}
+.social a{
+  color: #000;
+}
+.social i{
+  font-size: 20px;
+}
+.anunciar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 86%;
+  right: 85px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 18px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 80px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #ddd;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Kameron', serif;
+  font-weight: 600;
+}
+.logo p{
+  color: #E40017;
+  font-size: 32px;
+}
+.logo span{
+  color: #161616;
+  font-size: 18px;
+}
+.menu ul{
+  display: flex;
+  flex-direction: row;
+}
+.menu li a{
+  color: #000;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.menu li:hover{
+  text-decoration: 2px solid underline;
+  text-underline-offset: 5px;
+}
+.list-2 li a{
+  color: #000;
+  font-size: 16px;
+  padding: 0 10px;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+.list-2 li:hover{
+  text-decoration: none;
+}
+.list-2 a:hover{
+  background: red;
+  color: #fff;
+}
+.container-2{
+  padding: 20px 300px;
+}
+.banner{
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  background: yellow;
+}
+.banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.banner p{
+  position: absolute;
+  right: 365px;
+  top: 140px;
+  font-size: 34px;
+  width: 500px;
+  text-align: right;
+  color: #fff;
+}
+.banner span{
+  position: absolute;
+  right: 365px;
+  top: 230px;
+}
+.banner h2{
+  position: absolute;
+  right: 365px;
+  top: 270px;
+}
+.container-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background: #fff;
+}
+.search-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  height: auto;
+}
+.search-row input{
+  height: 30px;
+  width:  400px;
+  text-align: center;
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 3px solid #ddd;
+}
+.search-row button{
+  margin: 20px 0;
+  height: 30px;
+  width: auto;
+  padding: 0 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  outline: none;
+}
+.search-row i{
+  font-size: 16px;
+}
+.container-pag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-pag ul{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ddd;
+}
+.container-pag li{
+  padding: 0 10px;
+  font-size: 18px;
+}
+.container-pag a{
+  color: #000;
+}
+.container-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resultados{
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  background: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70vw;
+  height: auto;
+  margin: 20px;
+  padding: 10px 30px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.card h2{
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+.card h4{
+  text-align: justify;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+}
+.card p{
+  text-align: justify;
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  text-align: center;
+}
+.card span{
+  text-align: justify;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+}
+.card button{
+  margin: 10px;
+  padding: 8px;
+}
